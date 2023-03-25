@@ -24,9 +24,15 @@
         v-show="subMenu333"
         class="SideNav color-bg-default border-top py-2 pl-6 animated"
       >
-        <div class="SideNav-subItem" href="#url">F2L</div>
-        <div class="SideNav-subItem" href="#url">OLL</div>
-        <div class="SideNav-subItem" href="#url">PLL</div>
+        <div class="SideNav-subItem">
+          <nuxt-link to="/333/oll">OLL</nuxt-link>
+        </div>
+        <div class="SideNav-subItem">
+          <nuxt-link to="/333/pll">PLL</nuxt-link>
+        </div>
+        <div class="SideNav-subItem">
+          <nuxt-link to="/333/coll">COLL</nuxt-link>
+        </div>
       </nav>
 
       <div
@@ -52,8 +58,12 @@
         v-show="subMenuMegaminx"
         class="SideNav color-bg-default border-top py-2 pl-6 animated"
       >
-        <div class="SideNav-subItem" href="#url">OLL</div>
-        <div class="SideNav-subItem" href="#url">PLL</div>
+        <div class="SideNav-subItem">
+          <nuxt-link to="/megaminx/oll">OLL</nuxt-link>
+        </div>
+        <div class="SideNav-subItem">
+          <nuxt-link to="/megaminx/pll">PLL</nuxt-link>
+        </div>
       </nav>
 
       <div

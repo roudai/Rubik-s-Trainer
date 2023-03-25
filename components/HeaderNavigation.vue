@@ -11,9 +11,15 @@
       <div class="SelectMenu">
         <div class="SelectMenu-modal">
           <div class="SelectMenu-list">
-            <button class="SelectMenu-item" role="menuitem">F2L</button>
-            <button class="SelectMenu-item" role="menuitem">OLL</button>
-            <button class="SelectMenu-item" role="menuitem">PLL</button>
+            <button class="SelectMenu-item" role="menuitem">
+              <nuxt-link to="/333/oll">OLL</nuxt-link>
+            </button>
+            <button class="SelectMenu-item" role="menuitem">
+              <nuxt-link to="/333/pll">PLL</nuxt-link>
+            </button>
+            <button class="SelectMenu-item" role="menuitem">
+              <nuxt-link to="/333/coll">COLL</nuxt-link>
+            </button>
           </div>
         </div>
       </div>
@@ -30,8 +36,12 @@
       <div class="SelectMenu">
         <div class="SelectMenu-modal">
           <div class="SelectMenu-list">
-            <button class="SelectMenu-item" role="menuitem">OLL</button>
-            <button class="SelectMenu-item" role="menuitem">PLL</button>
+            <button class="SelectMenu-item" role="menuitem">
+              <nuxt-link to="/megaminx/oll">OLL</nuxt-link>
+            </button>
+            <button class="SelectMenu-item" role="menuitem">
+              <nuxt-link to="/megaminx/pll">PLL</nuxt-link>
+            </button>
           </div>
         </div>
       </div>
