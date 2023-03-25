@@ -4,9 +4,6 @@
 
     <div class="d-flex">
       <HeaderNavigation v-if="!mobile" />
-
-      <div v-if="!mobile" class="Divider" />
-
       <HeaderAction />
     </div>
   </header>

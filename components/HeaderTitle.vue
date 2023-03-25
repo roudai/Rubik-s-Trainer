@@ -17,14 +17,14 @@
       class="Header-link f3 d-flex flex-items-center"
       @click="router.push('/')"
     >
-      <img
+      <!-- <img
         src="/nuxt-logo.png"
         alt="Logo"
         width="25px"
         height="25px"
         class="mr-2 mr-md-3"
-      />
-      <span class="text-bold">Nuxt3 + PrimerCSS</span>
+      /> -->
+      <span class="text-bold">Rubik's Trainer</span>
     </div>
   </div>
 </template>
