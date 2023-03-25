@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   },
 
   // https://v3.nuxtjs.org/api/configuration/nuxt.config#css
-  css: ['@/assets/primer.scss'],
+  css: ['@/assets/primer.scss', '@/assets/cubing-icons.css'],
 
   // https://v3.nuxtjs.org/api/configuration/nuxt.config#components
   components: true,

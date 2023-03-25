@@ -6,7 +6,7 @@
         @click="subMenu333 = !subMenu333"
       >
         <div class="d-flex flex-items-center">
-          <i-ic-round-settings class="mr-2" />
+          <span class="cubing-icon event-333 mr-2"></span>
           3x3x3
         </div>
         <i-ic-sharp-arrow-drop-down
@@ -34,7 +34,7 @@
         @click="subMenuMegaminx = !subMenuMegaminx"
       >
         <div class="d-flex flex-items-center">
-          <i-ic-round-settings class="mr-2" />
+          <span class="cubing-icon event-minx mr-2"></span>
           Megaminx
         </div>
         <i-ic-sharp-arrow-drop-down
